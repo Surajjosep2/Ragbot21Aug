@@ -78,7 +78,7 @@ def load_prompt():
 {question}
 
 **RFP Template:**
-"""
+
 
 CONTEXT:
 {context}
