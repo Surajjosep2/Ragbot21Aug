@@ -137,8 +137,18 @@ if 'messages' not in st.session_state:
     st.session_state.messages = []
 
 # Draw a title and some markdown
-st.title("My Business Advisory App")
-st.markdown("""Generative AI based solution to boost your productivity in day to day work activities!""")
+st.title("My Friendly Indian Small Business Advisory App")
+st.markdown("""Generative AI based solution to boost your productivity and address your day-to-day business activities!
+
+ 
+* Provide a concise overview of the business or initiatives you are trying to drive. Briefly describe the demographies and history of your organization.
+* Clearly outline the specific goals, objectives, and deliverables expected from the project.
+* Include any key milestones or timelines that are relevant.
+* Specify the qualifications, experience, and certifications desired from potential vendors.
+* Include any technical or industry-specific requirements.
+* Clearly state the format and structure expected for vendor proposals.
+* Provide a small brief about your timeline requirements.
+""")
 
 # Include the upload form for new data to be Vectorized
 with st.sidebar:
