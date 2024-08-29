@@ -138,11 +138,22 @@ if 'messages' not in st.session_state:
 
 # Draw a image, title and some markdown
 
-# Fetch the image from a URL
-image_url = "https://github.com/Surajjosep2/Ragbot21Aug/blob/9222fe4a7c773f90d887ddd23a887f85b6e3558b/imageforstreamlit.jpeg"  # Replace with your image URL
 
-# Display the image
-st.image(image_url, caption="Indian Small Business", use_column_width=True)
+# CSS to add a background image to the Streamlit app
+page_bg_img = '''
+<style>
+body {
+    background-image: url("https://github.com/Surajjosep2/Ragbot21Aug/blob/9222fe4a7c773f90d887ddd23a887f85b6e3558b/imageforstreamlit.jpeg");  /* Replace with your image URL or local path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;  /* Adjust text color for better visibility */
+}
+</style>
+'''
+
+# Inject the CSS into the Streamlit app
+st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.title("My Friendly Indian Small Business Advisory App")
 st.markdown("""Generative AI based solution to boost your productivity and address your day-to-day business activities!
