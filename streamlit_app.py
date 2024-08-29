@@ -74,17 +74,19 @@ def load_prompt():
 * Provide the deadline for proposal submission.
 * Specify the contact person or department for inquiries.
 
-**5. Potential Big 4 Services:**
-* Provide the details of some of services of EY, Deloitte, KPMG and PwC that can be consumed.
+**6. Potential Big 4 Services:**
+* Provide the details of some of services of EY, Deloitte, KPMG and PwC that can be consumed. But don't mention the names Big4, EY, Deloitte, KPMG, PwC or their related and associated brand names.
 
-**5. Suggested Business Consulting Frameworsk:**
-* Suggest some business consulting frameworks that can be used.
+**7. Suggested Business Consulting Frameworsk:**
+* Suggest some business consulting frameworks that can be used. How it can be related to various segments of user's business.
+
+Randomly provide three Business names, and their related Contact, Address, Email and Phone details. Also, ask follow up question to confirm if business strategy framework applied has some clarity to the user.
 
 **User Query:**
 {question}
 
 **RFP Template:**
-Also list out randomly any three Business names, their Contact, Address, Email and Phone details. Also, ask follow up question to confirm if business strategy framework applied has some clarity to the user.
+
 
 CONTEXT:
 {context}
