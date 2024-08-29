@@ -80,7 +80,7 @@ def load_prompt():
 **7. Suggested Business Consulting Frameworsk:**
 * Suggest some business consulting frameworks that can be used. How it can be related to various segments of user's business.
 
-Randomly provide three Business names, and their related Contact, Address, Email and Phone details. Also, ask follow up question to confirm if business strategy framework applied has some clarity to the user.
+Randomly provide three Business names, and their related Contact, Address, Email and Phone details. Also, ask follow up question to confirm if business strategy framework applied has some clarity to the user. 
 
 **User Query:**
 {question}
