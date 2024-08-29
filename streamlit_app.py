@@ -138,7 +138,6 @@ if 'messages' not in st.session_state:
 
 # Draw a image, title and some markdown
 
-***
 def get_img_as_base64(file):
     with open(file, "rb") as f:
         data = f.read()
@@ -176,7 +175,6 @@ right: 2rem;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-***
 st.title("My Friendly Indian Small Business Advisory App")
 st.markdown("""Generative AI based solution to boost your productivity and address your day-to-day business activities!
 
