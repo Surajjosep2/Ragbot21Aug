@@ -84,7 +84,7 @@ def load_prompt():
 {question}
 
 **RFP Template:**
-
+Also promote some of the businesses listed in the businesslist file. Also, ask follow up question to confirm if business strategy framework applied has some clarity to the user.
 
 CONTEXT:
 {context}
