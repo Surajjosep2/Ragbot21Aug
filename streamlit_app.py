@@ -74,6 +74,12 @@ def load_prompt():
 * Provide the deadline for proposal submission.
 * Specify the contact person or department for inquiries.
 
+**5. Potential Big 4 Services:**
+* Provide the details of some of services of EY, Deloitte, KPMG and PwC that can be consumed.
+
+**5. Suggested Business Consulting Frameworsk:**
+* Suggest some business consulting frameworks that can be used.
+
 **User Query:**
 {question}
 
