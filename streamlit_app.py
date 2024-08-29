@@ -136,7 +136,14 @@ retriever = load_retriever()
 if 'messages' not in st.session_state:
     st.session_state.messages = []
 
-# Draw a title and some markdown
+# Draw a image, title and some markdown
+
+# Fetch the image from a URL
+image_url = "https://www.example.com/your-image.jpg"  # Replace with your image URL
+
+# Display the image
+st.image(image_url, caption="Indian Small Business", use_column_width=True)
+
 st.title("My Friendly Indian Small Business Advisory App")
 st.markdown("""Generative AI based solution to boost your productivity and address your day-to-day business activities!
 
