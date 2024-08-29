@@ -139,7 +139,7 @@ if 'messages' not in st.session_state:
 # Draw a image, title and some markdown
 
 # Fetch the image from a URL
-image_url = "https://www.example.com/your-image.jpg"  # Replace with your image URL
+image_url = "https://github.com/Surajjosep2/Ragbot21Aug/blob/9222fe4a7c773f90d887ddd23a887f85b6e3558b/imageforstreamlit.PNG"  # Replace with your image URL
 
 # Display the image
 st.image(image_url, caption="Indian Small Business", use_column_width=True)
