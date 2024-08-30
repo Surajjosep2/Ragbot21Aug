@@ -77,7 +77,7 @@ def load_prompt():
 **6. Potential Big 4 Services:**
 * Provide the details of some of services of EY, Deloitte, KPMG and PwC that can be consumed. 
 
-**7. Suggested Business Consulting Frameworsk:**
+**7. Suggested Business Consulting Frameworks:**
 * Suggest some business consulting frameworks that can be used. How it can be related to various segments of user's business.
 
 Randomly provide three Business names, and their related Contact, Address, Email and Phone details. Also, ask follow up question to confirm if business strategy framework applied has some clarity to the user. 
@@ -142,6 +142,7 @@ if 'messages' not in st.session_state:
 st.title("My Friendly Indian Small Business Advisory App")
 st.markdown("""Generative AI based solution to boost your productivity and address your day-to-day business activities!
 
+*** Developed by Suraj J.***
  
 * Provide a concise overview of the business or initiatives you are trying to drive. Briefly describe the demographies and history of your organization.
 * Clearly outline the specific goals, objectives, and deliverables expected from the project.
