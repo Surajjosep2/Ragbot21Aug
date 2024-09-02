@@ -140,7 +140,7 @@ if 'messages' not in st.session_state:
 
 
 st.title("My Friendly Indian Small Business Advisory App")
-st.markdown("""Generative AI based solution to boost your productivity and address your day-to-day business activities!
+st.markdown("""Generative AI based solution to boost your productivity and address your day-to-day business activities! Are you a small business, finding it difficult to communicate your business problem. We would help you in structuring the problem into a formal template, that would have wider acceptance. Please remember below bullet points in mind when you type in a self-introduction, business details, timeline and most importantly your problem.
 
 *** Developed by Suraj J.***
 Please provide details  requested below to evaluate your business:- 
